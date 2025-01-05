@@ -45,7 +45,7 @@ const albums = [
     release: 2018,
     urlCover: "https://upload.wikimedia.org/wikipedia/en/f/f3/Trench_Twenty_One_Pilots.png",
     description: "Un álbum conceptual que explora temas de lucha interna y resistencia. Incluye canciones como 'Jumpsuit' y 'My Blood'.",
-    color: "#FFDD57" // Amarillo brillante, reflejando la supervivencia y el coraje.
+    color: "#eeca3c" // Amarillo brillante, reflejando la supervivencia y el coraje.
   },
   {
     id: 6,
@@ -69,13 +69,13 @@ const albums = [
 
   return (
     <>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path='/' element={<HomePage albums={albums}/>} />
         </Routes> 
-      </BrowserRouter>
-      <Footer /> 
+        <Footer />
+      </BrowserRouter> 
     </>
   )
 }

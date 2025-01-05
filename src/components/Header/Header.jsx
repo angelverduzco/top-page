@@ -1,15 +1,16 @@
+import { NavLink } from 'react-router';
 import './Header.css';
 
 export function Header() {
     return (
         <header className="header">
-            <h1 className="header-title">TØP FAN</h1>
+            <NavLink className="header-title" to="/">The Bandito Outpost</NavLink>
             <nav className="header-nav">
                 <ul className="header-nav-list">
-                    <li className="list-item">Albums</li>
-                    <li className="list-item">History</li>
-                    <li className="list-item">Tour</li>
-                    <li className="list-item">Archive</li>
+                    <NavLink className="list-item" to="/discography">Discography</NavLink>
+                    <NavLink className="list-item" to="/journey">Journey</NavLink>
+                    <NavLink className="list-item" to="/tour">Tour</NavLink>
+                    <NavLink className="list-item" to="/archive">Archive</NavLink>
                 </ul>
             </nav>
         </header>
