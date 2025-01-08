@@ -21,7 +21,7 @@ const albums = [
     release: 2011,
     urlCover: "https://upload.wikimedia.org/wikipedia/en/3/3d/Regional_at_Best.png",
     description: "Un álbum conceptual que sentó las bases del sonido característico de la banda. Contiene varias canciones que luego serían regrabadas para álbumes futuros.",
-    color: "#6B7A8F" // Amarillo vibrante, reflejando esperanza y energía.
+    color: "#A8DADC" // Amarillo vibrante, reflejando esperanza y energía.
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const albums = [
     release: 2013,
     urlCover: "https://upload.wikimedia.org/wikipedia/en/0/0f/Twenty_One_Pilots_-_Vessel.png",
     description: "Primer álbum bajo el sello Fueled by Ramen. Combina letras profundas con elementos electrónicos y alternativos.",
-    color: "#A8DADC" // Azul claro, simbolizando introspección y frescura.
+    color: "#6B7A8F" // Azul claro, simbolizando introspección y frescura.
   },
   {
     id: 4,
