@@ -1,15 +1,19 @@
 import { Banner } from '../Banner/Banner';
 import { AlbumsSection } from '../AlbumsSection/AlbumsSection';
 import { BandSection } from '../BandSection/BandSection';
+import { MembersSection } from '../MembersSection/MembersSection';
 import './HomePage.css';
 
-export function HomePage({ albums }) {
+export function HomePage() {
     
     return (
         <>
-            <Banner />
-            <BandSection />
-            <AlbumsSection albums={albums} />
+            <main>
+                <Banner />
+                <BandSection />
+                <MembersSection />
+                <AlbumsSection />
+            </main>
         </> 
     )
 }
