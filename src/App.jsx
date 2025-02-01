@@ -1,6 +1,8 @@
 import { Header } from './components/Header/Header'
 import { Footer } from './components/Footer/Footer'
 import { HomePage } from './components/HomePage/HomePage'
+import { DiscographyPage } from './components/DiscographyPage/DiscographyPage'
+import { AlbumPage } from './components/AlbumPage/AlbumPage'
 import { Route, Routes, BrowserRouter } from 'react-router'
 import './App.css'
 
@@ -12,7 +14,9 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<HomePage />} />
-        </Routes> 
+          <Route path="/discography" element={<DiscographyPage />} />
+          <Route path="/discography/:albumId" element={<AlbumPage />} />
+        </Routes>
         <Footer />
       </BrowserRouter> 
     </>
