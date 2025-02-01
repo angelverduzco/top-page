@@ -1,6 +1,7 @@
 import './AlbumsSection.css';
 import { AlbumCard } from '../AlbumCard/AlbumCard';
 import { ALBUMS } from '../../constants';
+import ButtonLink from '../Button/ButtonLink';
 
 export function AlbumsSection() {
     return (
@@ -9,6 +10,7 @@ export function AlbumsSection() {
             <div className='albums-section-cards'>
                 {ALBUMS.map(album => <AlbumCard key={album.id} album={album} />)}
             </div>
+            <ButtonLink to={'/discography'}>View all</ButtonLink>
         </section>
     )
 }
