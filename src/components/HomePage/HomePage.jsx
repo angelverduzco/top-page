@@ -8,7 +8,7 @@ export function HomePage() {
     
     return (
         <>
-            <main>
+            <main className='home-page'>
                 <Banner />
                 <BandSection />
                 <MembersSection />
