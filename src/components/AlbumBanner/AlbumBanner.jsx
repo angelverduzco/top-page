@@ -1,11 +1,8 @@
 import './AlbumBanner.css';
-import { Link, useParams } from 'react-router';
-import { ALBUMS } from '../../constants';
+import { Link } from 'react-router';
 
-export function AlbumBanner() {
-    const { albumId } = useParams();
-    const album = ALBUMS.find((a) => a.id === Number(albumId));
-
+export function AlbumBanner({album}) {
+    
     return (
         <section className='album-banner' style={{ backgroundImage: `url(${album.urlCover})` }}>
             <Link
