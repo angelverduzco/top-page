@@ -14,8 +14,12 @@ export const ALBUMS = [
     name: "Twenty One Pilots",
     release: 2009,
     urlCover: twentyOnePilotsCover,
-    description: "Álbum debut de la banda, lanzado de manera independiente. Contiene temas introspectivos y una mezcla de estilos.",
+    description: "Their self-titled debut is deeply personal, blending piano, rap, and raw emotion. Songs like Addict With a Pen and Taxi Cab explore themes of faith, doubt, and mental health. It's a heartfelt introduction to Tyler Joseph's introspective songwriting and the band's experimental roots.",
     color: "#55732E",
+    links: {
+      spotify: "https://open.spotify.com/intl-es/album/6rgWZP4QFBjEFF0n6JWEOa?si=tOiuubD7Tou4f9u_vd5dxA",
+      appleMusic:"https://music.apple.com/mx/album/twenty-one-pilots/1784341970"
+    },
     tracks: [
       {
         title: "Implicit Demand for Proof",
@@ -108,8 +112,12 @@ export const ALBUMS = [
     name: "Regional at Best",
     release: 2011,
     urlCover: regionalAtBestCover,
-    description: "Un álbum conceptual que sentó las bases del sonido característico de la banda. Contiene varias canciones que luego serían regrabadas para álbumes futuros.",
+    description: "This independent release captures the band's evolving sound, mixing upbeat tracks like Guns for Hands with introspective anthems like Kitchen Sink. It's a bridge between their raw beginnings and the polished sound of Vessel, featuring early versions of fan favorites.",
     color: "#A8DADC",
+    links: {
+      spotify: "https://open.spotify.com/intl-es/album/2pvaY5uQvitGuztVNfsRR8?si=KsyKSfbIT76GDHOyUggjlQ",
+      appleMusic: ""
+    },
     tracks: [
       {
         title: "Guns for Hands",
@@ -202,8 +210,12 @@ export const ALBUMS = [
     name: "Vessel",
     release: 2013,
     urlCover: vesselCover,
-    description: "Primer álbum bajo el sello Fueled by Ramen. Combina letras profundas con elementos electrónicos y alternativos.",
+    description: "The album that brought them mainstream attention, Vessel is a perfect blend of catchy hooks and emotional depth. Tracks like Holding On to You and Car Radio showcase their signature mix of rap, pop, and rock, with lyrics about struggle, hope, and self-discovery.",
     color: "#6B7A8F",
+    links: {
+      spotify: "https://open.spotify.com/intl-es/album/2r2r78NE05YjyHyVbVgqFn?si=DBtuVZ_KRga1j4ki1R62uA",
+      appleMusic: "https://music.apple.com/mx/album/vessel/585128397"
+    },
     tracks: [
       {
         title: "Ode to Sleep",
@@ -284,8 +296,12 @@ export const ALBUMS = [
     name: "Blurryface",
     release: 2015,
     urlCover: blurryFaceCover,
-    description: "Álbum icónico que consolidó a la banda en la escena musical global. Contiene éxitos como 'Stressed Out' y 'Ride'.",
+    description: "A concept album centered on insecurities and inner demons, personified by Blurryface. Hits like Stressed Out and Ride catapulted them to global fame. The album's genre-blending sound and raw honesty resonated with fans worldwide, making it a cultural phenomenon.",
     color: "#741b1b",
+    links: {
+      spotify: "https://open.spotify.com/intl-es/album/3cQO7jp5S9qLBoIVtbkSM1?si=Wpi365rSR7GjVhype09yJQ",
+      appleMusic: "https://music.apple.com/mx/album/blurryface/974485462"
+    },
     tracks: [
       {
         title: "Heavydirtysoul",
@@ -378,8 +394,12 @@ export const ALBUMS = [
     name: "Trench",
     release: 2018,
     urlCover: trenchCover,
-    description: "Un álbum conceptual que explora temas de lucha interna y resistencia. Incluye canciones como 'Jumpsuit' y 'My Blood'.",
+    description: "A cinematic masterpiece set in the dystopian world of Dema. Trench explores themes of escape, mental health, and resilience. Tracks like Jumpsuit and My Blood showcase a darker, more mature sound, while the lore deepens the band's connection with their audience.",
     color: "#eeca3c",
+    links: {
+      spotify: "https://open.spotify.com/intl-es/album/621cXqrTSSJi1WqDMSLmbL?si=2NIxdVWQRAaT4ta3KG3vVg",
+      appleMusic: "https://music.apple.com/mx/album/trench/1422828208"
+    },
     tracks: [
       {
         title: "Jumpsuit",
@@ -472,8 +492,12 @@ export const ALBUMS = [
     name: "Scaled and Icy",
     release: 2021,
     urlCover: scaledAndIcyCover,
-    description: "Un álbum más optimista y colorido, lanzado en medio de la pandemia. Representa un contraste con el tono oscuro de álbumes previos.",
+    description: "Created during the pandemic, this album is brighter and more pop-oriented but still layered with introspective lyrics. Songs like Shy Away and Choker reflect on isolation, creativity, and hope. It's a departure from Trench but retains the band's signature emotional depth.",
     color: "#f07ba6",
+    links: {
+      spotify: "https://open.spotify.com/intl-es/album/0Q5XBpCYFgUWiG9DUWyAmJ?si=8aN0uah1QTuH5BaLuFb4dA",
+      appleMusic: "https://music.apple.com/mx/album/scaled-and-icy/1561836997"
+    },
     tracks: [
       {
         title: "Good Day",
@@ -550,6 +574,10 @@ export const ALBUMS = [
     urlCover: clancyCover,
     description: "",
     color: "#d33a35",
+    links: {
+      spotify: "https://open.spotify.com/intl-es/album/1KFWgQTw3EMTQebaaepVBI?si=SjN5B6fBQEK82pGTqQeu2w",
+      appleMusic: "https://music.apple.com/mx/album/clancy/1733370881"
+    },
     tracks: [
       {
         title: "Overcompensate",
