@@ -1,0 +1,29 @@
+.track-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111827;
+    padding: 0 10px;
+    transition: background-color 0.2s ease;
+}
+
+.track-card:hover {
+    background-color: #1f2937;
+}
+
+.track-card-info {
+    display: flex;
+    align-items: center;
+}
+
+.track-card-number {
+    margin-right: 5px;
+}
+
+.track-card-icon {
+    margin-right: 10px;
+}
+
+.track-card-link {
+    color: white;
+}
