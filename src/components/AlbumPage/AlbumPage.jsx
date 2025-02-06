@@ -1,8 +1,9 @@
 import { AlbumBanner } from '../AlbumBanner/AlbumBanner';
 import { useParams } from 'react-router';
-import { ALBUMS } from '../../constants';
+import { ALBUMS } from '../../data';
 import './AlbumPage.css';
-import AlbumOptions from '../AlbumOptions/AlbumOptions';
+import { Tracklist } from '../Tracklist/Tracklist';
+import { AlbumOptions } from '../AlbumOptions/AlbumOptions';
 
 export function AlbumPage() {
 
@@ -18,9 +19,7 @@ export function AlbumPage() {
                         <h2 className='about-section-title'>About the album</h2>
                         <p className='about-section-desc'>{ album.description }</p>
                     </section>
-                    <section className='tracklist-section'>
-
-                    </section>
+                    <Tracklist tracks={album.tracks} />
                 </div>
                 <AlbumOptions album={album} />
             </main>

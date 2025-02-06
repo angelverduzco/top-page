@@ -10,7 +10,7 @@ export function AlbumBanner({album}) {
                 to={'/discography'}
                 style={{ '--album-color': album.color }}
             >
-                &#60; Back to albums
+                &#60; Back to discography
             </Link>
             <h2 className='album-banner-title' style={{ color: album.color }}>{album.name}</h2>
             <p className='album-banner-date' style={{ color: album.color }}>Released at {album.release}</p>

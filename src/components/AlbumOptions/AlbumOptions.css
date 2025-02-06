@@ -1,11 +1,13 @@
 .album-options {
     position: sticky;
+    top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 30px;
     box-sizing: border-box;
+    align-self: flex-start;
 }
 
 .album-options-img {

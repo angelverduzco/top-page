@@ -2,7 +2,7 @@ import './AlbumOptions.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpotify, faApple } from '@fortawesome/free-brands-svg-icons';
 
-export default function AlbumOptions({ album }) { 
+export function AlbumOptions({ album }) { 
     return (
         <aside className='album-options'>
             <img className='album-options-img' src={album.urlCover} alt={`${album.name} cover`} />

@@ -1,6 +1,6 @@
 import './AlbumsSection.css';
 import { AlbumCard } from '../AlbumCard/AlbumCard';
-import { ALBUMS } from '../../constants';
+import { ALBUMS } from '../../data';
 import ButtonLink from '../Button/ButtonLink';
 
 export function AlbumsSection() {

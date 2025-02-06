@@ -5,11 +5,6 @@
     padding: 15px 12% ;
 }
 
-.album-page-content {
-    display: flex;
-    justify-content: space-between;
-}
-
 .about-section-title {
     margin: 0;
     font-size: 30px;
