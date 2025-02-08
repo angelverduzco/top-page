@@ -1,7 +1,7 @@
-import { Banner } from '../Banner/Banner';
-import { AlbumsSection } from '../AlbumsSection/AlbumsSection';
-import { BandSection } from '../BandSection/BandSection';
-import { MembersSection } from '../MembersSection/MembersSection';
+import { Banner } from '../../components/Banner/Banner';
+import { AlbumsSection } from '../../components/AlbumsSection/AlbumsSection';
+import { BandSection } from '../../components/BandSection/BandSection';
+import { MembersSection } from '../../components/MembersSection/MembersSection';
 import './HomePage.css';
 
 export function HomePage() {

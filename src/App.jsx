@@ -1,8 +1,8 @@
 import { Header } from './components/Header/Header'
 import { Footer } from './components/Footer/Footer'
-import { HomePage } from './components/HomePage/HomePage'
-import { DiscographyPage } from './components/DiscographyPage/DiscographyPage'
-import { AlbumPage } from './components/AlbumPage/AlbumPage'
+import { HomePage } from './pages/HomePage/HomePage'
+import { DiscographyPage } from './pages/DiscographyPage/DiscographyPage'
+import { AlbumPage } from './pages/AlbumPage/AlbumPage'
 import { Route, Routes, BrowserRouter } from 'react-router'
 import './App.css'
 

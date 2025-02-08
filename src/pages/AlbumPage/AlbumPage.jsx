@@ -1,9 +1,9 @@
-import { AlbumBanner } from '../AlbumBanner/AlbumBanner';
+import { AlbumBanner } from '../../components/AlbumBanner/AlbumBanner';
 import { useParams } from 'react-router';
 import { ALBUMS } from '../../data';
 import './AlbumPage.css';
-import { Tracklist } from '../Tracklist/Tracklist';
-import { AlbumOptions } from '../AlbumOptions/AlbumOptions';
+import { Tracklist } from '../../components/Tracklist/Tracklist';
+import { AlbumOptions } from '../../components/AlbumOptions/AlbumOptions';
 
 export function AlbumPage() {
 
