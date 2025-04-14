@@ -12,7 +12,7 @@
 }
 
 .album-banner::before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -50,6 +50,3 @@
     z-index: 2;
     margin-left: 12%;
 }
-
-
-
