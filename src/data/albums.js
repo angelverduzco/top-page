@@ -1,19 +1,9 @@
-import twentyOnePilotsCover from './assets/covers/twenty-one-pilots.png'
-import regionalAtBestCover from './assets/covers/regional-at-best.png'
-import vesselCover from './assets/covers/vessel.png'
-import blurryFaceCover from './assets/covers/blurryface.png'
-import trenchCover from './assets/covers/trench.png'
-import scaledAndIcyCover from './assets/covers/scaled-and-icy.png'
-import clancyCover from './assets/covers/clancy.png'
-import tylerPhoto from './assets/members/tyler.png'
-import joshPhoto from './assets/members/josh.png'
-
 export const ALBUMS = [
    {
     id: 1,
     name: "Twenty One Pilots",
     release: 2009,
-    urlCover: twentyOnePilotsCover,
+    cover: "/covers/albums/twenty-one-pilots.png",
     description: "Their self-titled debut is deeply personal, blending piano, rap, and raw emotion. Songs like Addict With a Pen and Taxi Cab explore themes of faith, doubt, and mental health. It's a heartfelt introduction to Tyler Joseph's introspective songwriting and the band's experimental roots.",
     color: "#55732E",
     links: {
@@ -125,7 +115,7 @@ export const ALBUMS = [
     id: 2,
     name: "Regional at Best",
     release: 2011,
-    urlCover: regionalAtBestCover,
+    cover: "/covers/albums/regional-at-best.png",
     description: "This independent release captures the band's evolving sound, mixing upbeat tracks like Guns for Hands with introspective anthems like Kitchen Sink. It's a bridge between their raw beginnings and the polished sound of Vessel, featuring early versions of fan favorites.",
     color: "#A8DADC",
     links: {
@@ -237,7 +227,7 @@ export const ALBUMS = [
     id: 3,
     name: "Vessel",
     release: 2013,
-    urlCover: vesselCover,
+    cover: "/covers/albums/vessel.png",
     description: "The album that brought them mainstream attention, Vessel is a perfect blend of catchy hooks and emotional depth. Tracks like Holding On to You and Car Radio showcase their signature mix of rap, pop, and rock, with lyrics about struggle, hope, and self-discovery.",
     color: "#6B7A8F",
     links: {
@@ -335,7 +325,7 @@ export const ALBUMS = [
     id: 4,
     name: "Blurryface",
     release: 2015,
-    urlCover: blurryFaceCover,
+    cover: "/covers/albums/blurryface.png",
     description: "A concept album centered on insecurities and inner demons, personified by Blurryface. Hits like Stressed Out and Ride catapulted them to global fame. The album's genre-blending sound and raw honesty resonated with fans worldwide, making it a cultural phenomenon.",
     color: "#741b1b",
     links: {
@@ -447,7 +437,7 @@ export const ALBUMS = [
     id: 5,
     name: "Trench",
     release: 2018,
-    urlCover: trenchCover,
+    cover: "/covers/albums/trench.png",
     description: "A cinematic masterpiece set in the dystopian world of Dema. Trench explores themes of escape, mental health, and resilience. Tracks like Jumpsuit and My Blood showcase a darker, more mature sound, while the lore deepens the band's connection with their audience.",
     color: "#eeca3c",
     links: {
@@ -559,7 +549,7 @@ export const ALBUMS = [
     id: 6,
     name: "Scaled and Icy",
     release: 2021,
-    urlCover: scaledAndIcyCover,
+    cover: "/covers/albums/scaled-and-icy.png",
     description: "Created during the pandemic, this album is brighter and more pop-oriented but still layered with introspective lyrics. Songs like Shy Away and Choker reflect on isolation, creativity, and hope. It's a departure from Trench but retains the band's signature emotional depth.",
     color: "#f07ba6",
     links: {
@@ -650,7 +640,7 @@ export const ALBUMS = [
     id: 7,
     name: "Clancy",
     release: 2024,
-    urlCover: clancyCover,
+    cover: "/covers/albums/clancy.png",
     description: "",
     color: "#d33a35",
     links: {
@@ -752,20 +742,3 @@ export const ALBUMS = [
     ]
   }
 ];
-
-export const MEMBERS = {
-  tyler: {
-    name: "Tyler Joseph",
-    role: "Vocalist, pianist, composer, bassist",
-    age: 36,
-    description: "Tyler Joseph is the lead vocalist, pianist, and primary songwriter of Twenty One Pilots. As the band's creative mastermind, Tyler blends introspective and thought-provoking lyrics with captivating melodies. His ability to craft complex narratives, such as the Trench universe, sets the band apart. Known for his raw vulnerability, Tyler connects deeply with fans through themes of mental health, identity, and hope. His performances are marked by emotional intensity, making him a defining voice in alternative music.",
-    image: tylerPhoto
-  },
-  josh: {
-    name: "Josh Dun",
-    role: "Drummer, percussionist",
-    age: 37,
-    description: "Josh Dun is the dynamic drummer and percussionist of Twenty One Pilots. Joining the band in 2011, he quickly became integral to its identity, bringing energy and charisma to both recordings and live shows. Renowned for his powerful drumming and vibrant stage presence, Josh complements Tyler's introspective style with rhythmic precision. His creativity extends beyond percussion, contributing to the band’s unique sound. Together, Josh and Tyler form a duo celebrated for pushing the boundaries of modern music.",
-    image: joshPhoto
-  }
-};
