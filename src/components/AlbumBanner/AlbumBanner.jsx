@@ -18,7 +18,7 @@ export function AlbumBanner({ album }) {
                 {album.name}
             </h2>
             <p className="album-banner-date" style={{ color: album.color }}>
-                Released at {album.release}
+                Released in {album.release}
             </p>
         </section>
     );
