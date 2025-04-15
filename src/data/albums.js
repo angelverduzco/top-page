@@ -5,7 +5,7 @@ export const ALBUMS = [
         release: 2009,
         cover: "/covers/albums/twenty-one-pilots.png",
         description:
-            "Their self-titled debut is deeply personal, blending piano, rap, and raw emotion. Songs like Addict With a Pen and Taxi Cab explore themes of faith, doubt, and mental health. It's a heartfelt introduction to Tyler Joseph's introspective songwriting and the band's experimental roots.",
+            'The self-titled debut album by Twenty One Pilots, released independently in 2009, introduced the band\'s unique fusion of piano-driven melodies, rap, and introspective lyrics. Crafted primarily by Tyler Joseph, the album delves into themes of faith, self-doubt, and the human experience. Tracks like "Addict with a Pen" and "March to the Sea" showcase the raw emotion and experimental sound that would become the band\'s hallmark. This foundational work laid the groundwork for their evolving musical journey.',
         color: "#55732E",
         links: {
             spotify:
@@ -147,7 +147,7 @@ export const ALBUMS = [
         release: 2011,
         cover: "/covers/albums/regional-at-best.png",
         description:
-            "This independent release captures the band's evolving sound, mixing upbeat tracks like Guns for Hands with introspective anthems like Kitchen Sink. It's a bridge between their raw beginnings and the polished sound of Vessel, featuring early versions of fan favorites.",
+            'Released on July 8, 2011, Regional at Best is Twenty One Pilots\' second studio album and the first featuring the duo of Tyler Joseph and Josh Dun. Self-released, the album blends alternative rock, emo-pop, and electropop, highlighting the band\'s genre-defying style. Several tracks, including "Car Radio" and "Guns for Hands," were later re-recorded for their major-label debut, Vessel. ',
         color: "#A8DADC",
         links: {
             spotify:
@@ -275,7 +275,7 @@ export const ALBUMS = [
         release: 2013,
         cover: "/covers/albums/vessel.png",
         description:
-            "The album that brought them mainstream attention, Vessel is a perfect blend of catchy hooks and emotional depth. Tracks like Holding On to You and Car Radio showcase their signature mix of rap, pop, and rock, with lyrics about struggle, hope, and self-discovery.",
+            'Vessel, released in 2013, marked Twenty One Pilots\' major-label debut under Fueled by Ramen. The album features a polished production and a blend of alternative rock, pop, and hip-hop elements. Songs like "Holding On to You" and "House of Gold" explore themes of mental health, faith, and self-identity. Vessel solidified the band\'s presence in the alternative music scene, showcasing their ability to tackle profound subjects with catchy melodies and dynamic arrangements.​',
         color: "#6B7A8F",
         links: {
             spotify:
@@ -399,7 +399,7 @@ export const ALBUMS = [
         release: 2015,
         cover: "/covers/albums/blurryface.png",
         description:
-            "A concept album centered on insecurities and inner demons, personified by Blurryface. Hits like Stressed Out and Ride catapulted them to global fame. The album's genre-blending sound and raw honesty resonated with fans worldwide, making it a cultural phenomenon.",
+            'Released on May 17, 2015, Blurryface is Twenty One Pilots\' fourth studio album and a significant breakthrough in their career. The album introduces the character Blurryface, representing insecurities and self-doubt. Blending genres like hip-hop, rock, and reggae, it features hit singles "Stressed Out" and "Ride," both reaching the top 5 on the Billboard Hot 100. Blurryface became the first album in the digital era where every track received at least a gold certification from the RIAA.',
         color: "#741b1b",
         links: {
             spotify:
@@ -541,7 +541,7 @@ export const ALBUMS = [
         release: 2018,
         cover: "/covers/albums/trench.png",
         description:
-            "A cinematic masterpiece set in the dystopian world of Dema. Trench explores themes of escape, mental health, and resilience. Tracks like Jumpsuit and My Blood showcase a darker, more mature sound, while the lore deepens the band's connection with their audience.",
+            'Trench, released on October 5, 2018, is a concept album that expands the universe introduced in Blurryface. Set in the dystopian city of Dema, the narrative follows protagonist Clancy\'s escape from oppressive rulers known as the Bishops. The album delves into themes of mental health, identity, and rebellion, blending alternative rock, hip-hop, and electronic elements. Tracks like "Jumpsuit" and "My Blood" exemplify the band\'s evolving sound and storytelling prowess.',
         color: "#eeca3c",
         links: {
             spotify:
@@ -683,7 +683,7 @@ export const ALBUMS = [
         release: 2021,
         cover: "/covers/albums/scaled-and-icy.png",
         description:
-            "Created during the pandemic, this album is brighter and more pop-oriented but still layered with introspective lyrics. Songs like Shy Away and Choker reflect on isolation, creativity, and hope. It's a departure from Trench but retains the band's signature emotional depth.",
+            'Released on May 21, 2021, Scaled and Icy marks a departure from the darker tones of previous albums, embracing a more upbeat and colorful aesthetic. The title is an anagram for "Clancy is Dead," hinting at connections to the band\'s ongoing narrative. Recorded during the COVID-19 pandemic, the album reflects themes of isolation and hope. Songs like "Shy Away" and "Saturday" showcase a pop-oriented sound, while still addressing deeper emotional undercurrents.',
         color: "#f07ba6",
         links: {
             spotify:
@@ -798,7 +798,8 @@ export const ALBUMS = [
         name: "Clancy",
         release: 2024,
         cover: "/covers/albums/clancy.png",
-        description: "",
+        description:
+            "Clancy, released on May 24, 2024, is the seventh studio album by Twenty One Pilots and concludes their decade-long conceptual narrative. Set in the dystopian city of Dema within the world of Trench, the album follows the protagonist, Clancy, as he returns to liberate his fellow citizens after gaining mystical powers. Blending alternative rock, pop, hip hop, and synth-pop, the album features tracks like 'Overcompensate,' 'Next Semester,' and 'Paladin Strait,' offering a dynamic and introspective listening experience.",
         color: "#d33a35",
         links: {
             spotify:
