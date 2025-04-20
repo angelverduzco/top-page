@@ -1,0 +1,21 @@
+.discography-section {
+    background-color: #5a5757;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    min-width: 1500px;
+    max-width: 1800px;
+}
+
+.discography-section-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.discography-section-elements {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
