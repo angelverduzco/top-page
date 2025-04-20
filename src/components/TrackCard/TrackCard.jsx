@@ -10,15 +10,25 @@ export function TrackCard({ track }) {
                 <h3 className="track-card-title">{track.title}</h3>
             </div>
             <div>
-                <a className="track-card-link" href={track.spotify}>
+                <a
+                    className="track-card-link"
+                    href={track.links.spotify}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <FontAwesomeIcon
                         className="track-card-icon"
                         icon={faSpotify}
                         size="lg"
                     />
                 </a>
-                {track.appleMusic ? (
-                    <a className="track-card-link" href={track.appleMusic}>
+                {track.links.appleMusic ? (
+                    <a
+                        className="track-card-link"
+                        href={track.links.appleMusic}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <FontAwesomeIcon
                             className="track-card-icon"
                             icon={faApple}

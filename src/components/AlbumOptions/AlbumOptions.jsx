@@ -10,7 +10,12 @@ export function AlbumOptions({ album }) {
                 src={album.cover}
                 alt={`${album.name} cover`}
             />
-            <a className="btn-spotify" href={album.links.spotify}>
+            <a
+                className="btn-spotify"
+                href={album.links.spotify}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <FontAwesomeIcon
                     className="btn-icon"
                     icon={faSpotify}
@@ -18,7 +23,12 @@ export function AlbumOptions({ album }) {
                 Listen on Spotify
             </a>
             {album.links.appleMusic !== "" ? (
-                <a className="btn-apple" href={album.links.appleMusic}>
+                <a
+                    className="btn-apple"
+                    href={album.links.appleMusic}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <FontAwesomeIcon
                         className="btn-icon"
                         icon={faApple}

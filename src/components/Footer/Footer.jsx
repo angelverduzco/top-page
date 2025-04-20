@@ -10,6 +10,8 @@ export function Footer() {
                 <a
                     className="footer-link"
                     href="https://github.com/AngelManuelVerduzcoGonzalez"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <FontAwesomeIcon
                         className="footer-icon"
@@ -20,6 +22,8 @@ export function Footer() {
                 <a
                     className="footer-link"
                     href="https://www.linkedin.com/in/angelverduzco"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <FontAwesomeIcon
                         className="footer-icon"
