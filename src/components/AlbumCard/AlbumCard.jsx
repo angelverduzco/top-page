@@ -1,10 +1,10 @@
 import { Link } from "react-router";
 import "./AlbumCard.css";
 
-export function AlbumCard({ album }) {
+export function AlbumCard({ album, route }) {
     return (
         <Link
-            to={`/discography/${album.id}`}
+            to={`/discography/${route}/${album.id}`}
             className="album-card"
             style={{ backgroundColor: album.color }}
         >

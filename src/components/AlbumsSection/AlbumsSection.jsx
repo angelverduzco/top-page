@@ -9,7 +9,7 @@ export function AlbumsSection() {
             <h2 className="albums-section-title">Discography</h2>
             <div className="albums-section-cards">
                 {ALBUMS.map((album) => (
-                    <AlbumCard key={album.id} album={album} />
+                    <AlbumCard key={album.id} album={album} route={"albums"} />
                 ))}
             </div>
             <ButtonLink to={"/discography"}>View all</ButtonLink>

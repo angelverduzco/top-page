@@ -15,7 +15,7 @@ function App() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/discography" element={<DiscographyPage />} />
                     <Route
-                        path="/discography/:albumId"
+                        path="/discography/:type/:id"
                         element={<AlbumPage />}
                     />
                 </Routes>

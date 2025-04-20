@@ -10,6 +10,7 @@
     cursor: pointer;
     text-decoration: none;
     color: white;
+    max-width: 300px;
 }
 
 .album-card:hover {
