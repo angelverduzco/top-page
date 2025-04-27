@@ -842,7 +842,7 @@ export const ALBUMS = [
             {
                 id: 2,
                 title: "Choker",
-                duration: "3:42",
+                duration: "3:43",
                 links: {
                     spotify:
                         "https://open.spotify.com/intl-es/track/732E6ibFkQR5lNIPEeiEnx?si=a2b20f4e6ab444fc",
@@ -864,7 +864,7 @@ export const ALBUMS = [
             {
                 id: 4,
                 title: "The Outside",
-                duration: "3:43",
+                duration: "3:36",
                 links: {
                     spotify:
                         "https://open.spotify.com/intl-es/track/0yzj6eBs5a6X6d3P5qaQ5J?si=dbfbc01454244d9e",
@@ -908,7 +908,7 @@ export const ALBUMS = [
             {
                 id: 8,
                 title: "Formidable",
-                duration: "3:25",
+                duration: "2:56",
                 links: {
                     spotify:
                         "https://open.spotify.com/intl-es/track/2jfyY5GIc7wsYVIrCnjblC?si=ceb87405c6f04808",
@@ -930,7 +930,7 @@ export const ALBUMS = [
             {
                 id: 10,
                 title: "No Chances",
-                duration: "3:57",
+                duration: "3:46",
                 links: {
                     spotify:
                         "https://open.spotify.com/intl-es/track/2OdfQjIJlomZFUBTEDKMre?si=01cf322568864fd2",
@@ -941,7 +941,7 @@ export const ALBUMS = [
             {
                 id: 11,
                 title: "Redecorate",
-                duration: "3:36",
+                duration: "4:05",
                 links: {
                     spotify:
                         "https://open.spotify.com/intl-es/track/2XPmTamsj7d9i3gzLCL4JI?si=5ddbe39751644f31",
