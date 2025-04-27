@@ -10,19 +10,21 @@ export function TrackCard({ track }) {
                 <h3 className="track-card-title">{track.title}</h3>
             </div>
             <div>
-                <a
-                    className="track-card-link"
-                    href={track.links.spotify}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <FontAwesomeIcon
-                        className="track-card-icon"
-                        icon={faSpotify}
-                        size="lg"
-                    />
-                </a>
-                {track.links.appleMusic ? (
+                {track.links.spotify && (
+                    <a
+                        className="track-card-link"
+                        href={track.links.spotify}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon
+                            className="track-card-icon"
+                            icon={faSpotify}
+                            size="lg"
+                        />
+                    </a>
+                )}
+                {track.links.appleMusic && (
                     <a
                         className="track-card-link"
                         href={track.links.appleMusic}
@@ -35,7 +37,7 @@ export function TrackCard({ track }) {
                             size="lg"
                         />
                     </a>
-                ) : null}
+                )}
                 <span className="track-card-duration">{track.duration}</span>
             </div>
         </div>
