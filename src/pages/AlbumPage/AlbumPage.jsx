@@ -4,8 +4,13 @@ import { ALBUMS, LIVE_ALBUMS, SINGLES, EXTENDED_PLAYS } from "../../data";
 import "./AlbumPage.css";
 import { Tracklist } from "../../components/Tracklist/Tracklist";
 import { AlbumOptions } from "../../components/AlbumOptions/AlbumOptions";
+import { useEffect } from "react";
 
 export function AlbumPage() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const { type, id } = useParams();
 
     // Mapeo de tipos a datos
