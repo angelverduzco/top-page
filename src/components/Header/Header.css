@@ -6,12 +6,12 @@
     width: 100%;
     height: 90px;
     align-items: center;
-    background-color: #e34039;
+    background-color: #8C2A2A;
 }
 
 .header-title {
     font-size: 40px;
-    color: #fce51d;
+    color: #0D0D0D;
     text-decoration: none;
     font-weight: bold;
 }
@@ -25,13 +25,13 @@
     margin-left: 20px;
     list-style-type: none;
     font-size: 18px;
-    color: #fce51d;
+    color: #0D0D0D;
     font-weight: bold;
     text-decoration: none;
 }
 
 .list-item.active {
-    color: #000;
+    color: #c46464;
     text-decoration: underline;
 }
 

@@ -30,6 +30,8 @@
     z-index: 2;
     margin-left: 12%;
     transition: color 0.2s ease;
+    display: inline-block;
+    width: fit-content;
 }
 
 .album-banner-btn:hover {
