@@ -9,18 +9,26 @@ export function Header() {
       </NavLink>
       <nav className="header-nav">
         <ul className="header-nav-list">
-          <NavLink className="list-item" to="/discography">
-            Discography
-          </NavLink>
-          <NavLink className="list-item" to="/journey">
-            Journey
-          </NavLink>
-          <NavLink className="list-item" to="/tour">
-            Tour
-          </NavLink>
-          <NavLink className="list-item" to="/archive">
-            Archive
-          </NavLink>
+          <li className="list-item">
+            <NavLink className="list-link" to="/discography">
+              Discography
+            </NavLink>
+          </li>
+          <li className="list-item">
+            <NavLink className="list-link" to="/journey">
+              Journey
+            </NavLink>
+          </li>
+          <li className="list-item">
+            <NavLink className="list-link" to="/tour">
+              Tour
+            </NavLink>
+          </li>
+          <li className="list-item">
+            <NavLink className="list-link" to="/archive">
+              Archive
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

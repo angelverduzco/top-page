@@ -6,7 +6,7 @@
     width: 100%;
     height: 90px;
     align-items: center;
-    background-color: #8C2A2A;
+    background-color: #cb5252;
 }
 
 .header-title {
@@ -22,20 +22,24 @@
 }
 
 .list-item {
+    list-style: none;
+}
+
+.list-link {
     margin-left: 20px;
     list-style-type: none;
     font-size: 18px;
     color: #0D0D0D;
     font-weight: bold;
     text-decoration: none;
-}
 
-.list-item.active {
-    color: #e8e6e2;
-    text-decoration: underline;
-}
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
 
-.list-item:hover {
-    cursor: pointer;
-    text-decoration: underline;
+    &.active {
+        color: #e8e6e2;
+        text-decoration: underline;
+    }
 }
