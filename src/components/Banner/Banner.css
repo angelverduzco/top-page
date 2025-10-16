@@ -1,19 +1,12 @@
 .banner {
     width: 100%;
-    background-color: #e23a31;
+    background-color: #e8e6e2;
     position: relative;
     height: 675px;
     box-shadow: inset 0 0 200px rgba(20, 20, 20, 0.8);
     background-repeat: no-repeat;
-    background-position: center;
-}
-
-.banner-img {
-    left: 50%;
-    top: 50%;
-    translate: -50% -50%;
-    position: absolute;
-    z-index: 0;
+    background-position: 50% 0px;
+    background-size: contain;
 }
 
 .banner-title {
@@ -23,7 +16,7 @@
     margin: 0;
     top: 60%;
     left: 2.5%;
-    color: #fce51d;
+    color: #8c2a2a;
 }
 
 .banner-text {
@@ -32,5 +25,5 @@
     top: 72%;
     left: 2.5%;
     font-size: 30px;
-    color: #fce51d;
+    color: #8c2a2a;
 }
