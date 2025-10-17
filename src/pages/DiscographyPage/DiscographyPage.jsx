@@ -1,9 +1,18 @@
 import "./DiscographyPage.css";
+import { useEffect } from "react";
 import DiscographySection from "../../components/DiscographySection/DiscographySection";
 import useDiscography from "../../hooks/useDiscography";
 
 export function DiscographyPage() {
   const discography = useDiscography();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, []);
 
   const SECTIONS = [
     { section: "Albums", elements: discography.ALBUMS },
