@@ -10,7 +10,7 @@ export function MembersSection() {
 
   return (
     <section className="members-section">
-      <h2 className="members-section-title">Leaders of the Resistance</h2>
+      <h2 className="members-section-title">Leaders of the Banditos</h2>
       <div className="members-section-content">
         {member ? (
           <MemberCard member={MEMBERS.tyler} />

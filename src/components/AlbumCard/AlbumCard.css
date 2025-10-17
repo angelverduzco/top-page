@@ -11,6 +11,7 @@
     text-decoration: none;
     color: white;
     max-width: 300px;
+    justify-self: center;
 }
 
 .album-card:hover {
@@ -29,4 +30,14 @@
 
 .album-card-release {
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .album-card {
+        max-width: 200px;
+    }
+
+    .album-card-img {
+        width: 200px;
+    }
 }

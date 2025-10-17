@@ -7,6 +7,7 @@
     height: 90px;
     align-items: center;
     background-color: #cb5252;
+    position: relative;
 }
 
 .header-title {
@@ -41,5 +42,60 @@
     &.active {
         color: #e8e6e2;
         text-decoration: underline;
+    }
+}
+
+.menu-toggle {
+    display: none;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .header-nav {
+        justify-content: center;
+        align-items: center;
+        display: none;
+        position: absolute;
+        top: 99%;
+        right: 0;
+        background-color: #cb5252;
+        width: 100%;
+        z-index: 1;
+
+        &.open {
+            display: flex;
+        }
+    }
+
+    .header-nav-list {
+        margin: 0;
+        padding: 0 0 1rem 0;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-link {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 1.75rem;
+    }
+
+    .list-link {
+        font-size: 1.25rem;
     }
 }

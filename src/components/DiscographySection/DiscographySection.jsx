@@ -5,7 +5,7 @@ function DiscographySection({ section, elements }) {
   return (
     <section className="discography-section">
       <h2 className="discography-section-title">{section}</h2>
-      <div className="discography-section-elements">
+      <div className="discography-section-cards">
         {elements.map((element) => (
           <AlbumCard
             key={element.id}

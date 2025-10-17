@@ -20,12 +20,38 @@
 
 .band-section-text {
     width: 60%;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .band-section-img {
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
     aspect-ratio: 1/1;
     filter: drop-shadow(0 2px 5px rgba(227, 64, 57, 0.7));
+}
+
+@media (max-width: 1028px) {
+    .band-section {
+        margin: 2rem 0;
+    }
+
+    .band-section-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .band-section-title {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .band-section-text {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .band-section-img {
+        margin-top: 1rem;
+        width: 40%;
+    }
 }

@@ -5,14 +5,14 @@ import { MembersSection } from "../../components/MembersSection/MembersSection";
 import "./HomePage.css";
 
 export function HomePage() {
-    return (
-        <>
-            <main className="home-page">
-                <Banner />
-                <BandSection />
-                <MembersSection />
-                <AlbumsSection />
-            </main>
-        </>
-    );
+  return (
+    <>
+      <main className="home-page">
+        <Banner />
+        <BandSection />
+        <MembersSection />
+        <AlbumsSection />
+      </main>
+    </>
+  );
 }

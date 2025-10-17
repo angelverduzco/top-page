@@ -29,20 +29,60 @@
     background-color: #5a5757;
     font-size: 40px;
     padding: 10px;
-}
 
-.arrow-btn:hover {
-    cursor: pointer;
-    background-color: #e34039;
-    color: #fce51d;
+    &:hover {
+        cursor: pointer;
+        background-color: #000;
+        color: #832525;
+    }
 }
 
 .arrow-btn.left {
     top: 50%;
-    left: 5%;
+    left: 2%;
 }
 
 .arrow-btn.right {
     top: 50%;
-    right: 5%;
+    right: 2%;
+}
+
+@media (max-width: 1350px) {
+    .members-section-content {
+        margin: 50px 0;
+        width: 60%;
+    }
+
+    .members-section-title {
+        font-size: 2rem;
+    }
+
+    .arrow-btn {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .members-section {
+        background-color: #2F2D2D;
+    }
+
+    .members-section-title {
+        padding-top: 2rem;
+    }
+
+    .members-section-content {
+        margin: 1rem 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 2rem 4rem;
+        box-sizing: border-box;
+        box-shadow: none;
+    }
+
+    .arrow-btn {
+        width: 30px;
+        height: 30px;
+    }
 }

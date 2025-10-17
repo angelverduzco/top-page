@@ -5,7 +5,7 @@
     height: 675px;
     box-shadow: inset 0 0 200px rgba(20, 20, 20, 0.8);
     background-repeat: no-repeat;
-    background-position: 50% 0px;
+    background-position: bottom;
     background-size: contain;
 }
 
@@ -26,4 +26,36 @@
     left: 2.5%;
     font-size: 30px;
     color: #CB5252;
+}
+
+@media (max-width: 1028px) {
+    .banner {
+        height: 500px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+        top: 70%;
+    }
+
+    .banner-text {
+        font-size: 1.5rem;
+        top: 78%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 275px;
+    }
+
+    .banner-title {
+        top: 60%;
+        font-size: 1.8rem;
+    }
+
+    .banner-text {
+        top: 70%;
+        font-size: 1rem;
+    }
 }

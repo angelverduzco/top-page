@@ -93,7 +93,7 @@ export const ALBUMS = [
     cover: "/covers/albums/regional-at-best.webp",
     description:
       'Released on July 8, 2011, Regional at Best is Twenty One Pilots\' second studio album and the first featuring the duo of Tyler Joseph and Josh Dun. Self-released, the album blends alternative rock, emo-pop, and electropop, highlighting the band\'s genre-defying style. Several tracks, including "Car Radio" and "Guns for Hands," were later re-recorded for their major-label debut, Vessel. ',
-    color: "#A8DADC",
+    color: "#337C80",
     links: {
       spotify:
         "https://open.spotify.com/intl-es/album/2pvaY5uQvitGuztVNfsRR8?si=KsyKSfbIT76GDHOyUggjlQ",

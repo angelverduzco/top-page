@@ -1,21 +1,24 @@
 .discography-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
     background-color: #5a5757;
-    margin-bottom: 2rem;
-    padding: 2rem;
-    border-radius: 20px;
-    min-width: 1500px;
-    max-width: 1800px;
+    border-radius: 15px;
+    width: 95%;
 }
 
 .discography-section-title {
-    text-align: center;
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.discography-section-elements {
+.discography-section-cards {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
 }
