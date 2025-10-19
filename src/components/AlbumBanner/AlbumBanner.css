@@ -9,6 +9,7 @@
     overflow: hidden;
     flex-direction: column;
     justify-content: end;
+    z-index: 0;
 }
 
 .album-banner::before {
@@ -51,4 +52,14 @@
     margin-bottom: 15px;
     z-index: 2;
     margin-left: 12%;
+}
+
+@media (width <= 1028px) {
+    .album-banner-title {
+        font-size: 3rem;
+    }
+
+    .album-banner-date {
+        font-size: 1.5rem;
+    }
 }

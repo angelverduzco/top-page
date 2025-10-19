@@ -7,9 +7,29 @@
 
 .about-section-title {
     margin: 0;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .about-section-desc {
     font-size: 1.4rem;
+}
+
+@media (width <= 1200px) {
+    .album-page {
+        flex-direction: column;
+    }
+
+    .about-section-desc {
+        font-size: 1.2rem;
+    }
+}
+
+@media (width <= 1200px) {
+    .about-section-title {
+        font-size: 1.5rem;
+    }
+
+    .about-section-desc {
+        font-size: 1.15rem;
+    }
 }

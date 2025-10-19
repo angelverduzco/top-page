@@ -8,3 +8,11 @@
 .discography-title {
     font-size: 3rem;
 }
+
+@media(width <= 1028px) {
+    .discography-title {
+        font-size: 2.1rem;
+        margin: 2rem 0 0 0;
+        text-align: center;
+    }
+}
