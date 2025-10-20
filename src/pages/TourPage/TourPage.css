@@ -1,0 +1,22 @@
+.tour-page {
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tour-title {
+  font-size: 3rem;
+}
+
+@media (width < 1028px) {
+  .tour-title {
+    font-size: 1.5rem;
+  }
+
+  .tour-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

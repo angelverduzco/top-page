@@ -1,0 +1,85 @@
+.concert-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: #2f2d2d;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 1px 15px 1px rgba(203,82,82,0.75);
+  box-sizing: border-box;
+}
+
+.concert-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.concert-card-icon {
+  margin-right: 0.5rem;
+}
+
+.concert-card-date {
+  color: #cb5252;
+  font-size: 1.5rem;
+}
+
+.concert-card-venue {
+  font-size: 1.5rem;
+  font-weight: bold;
+} 
+
+.concert-card-location {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.concert-card-tickets {
+  text-decoration: none;
+  background-color: #cb5252;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: #ef4444;
+  }
+}
+
+@media (width < 1150px) {
+  .concert-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .concert-card-tickets {
+    width: 60%;
+    text-align: center;
+  }
+}
+
+@media (width < 768px) {
+  .concert-card {
+    width: 80%;
+  }
+
+  .concert-card-date {
+    font-size: 1rem;
+  }
+
+  .concert-card-venue {
+    font-size: 1rem;
+  }
+
+  .concert-card-location {
+    font-size: 1rem;
+  }
+
+  .concert-card-tickets {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 50%;
+  }
+}
