@@ -9,7 +9,7 @@ export function Footer() {
       <div className="footer-links">
         <a
           className="footer-link"
-          href="https://github.com/AngelManuelVerduzcoGonzalez"
+          href="https://github.com/angelverduzco"
           target="_blank"
           rel="noopener noreferrer"
         >
