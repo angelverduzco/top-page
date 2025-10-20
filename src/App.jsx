@@ -6,6 +6,7 @@ import { AlbumPage } from "./pages/AlbumPage/AlbumPage";
 import TourPage from "./pages/TourPage/TourPage";
 import { Route, Routes, BrowserRouter } from "react-router";
 import "./App.css";
+import LorePage from "./pages/LorePage/LorePage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/discography" element={<DiscographyPage />} />
           <Route path="/discography/:type/:id" element={<AlbumPage />} />
           <Route path="/tour" element={<TourPage />} />
+          <Route path="/lore" element={<LorePage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
